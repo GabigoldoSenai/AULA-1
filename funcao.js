@@ -2,17 +2,8 @@
 
 //console.log(identifyNum())
 
-function identifyNum(num){
-    if(num > 0){
-        return 1
-    }else if (num < 0){
-        return 0
-    }else if (num = 0){
-        return `Neutro`
-    }else{
-        return `ERRO!!!!!!!!!!!!!`
-    }
-}
+const verifica1 = (num) => num > 0 ? 1 : 0
+
 
 
 //EXERCÍCIO 2: Faça uma função que receba um único valor representado em segundos. Essa função deverá convertê-lo para horas, minutos e segundos. 
@@ -100,5 +91,3 @@ function tripleNumber(num){
 function doubleTripleSum(num){
     return doubleNumber(num) + tripleNumber(num)
 }
-
-console.log(doubleTripleSum(5))
